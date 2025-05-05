@@ -1,0 +1,94 @@
+Asg-8
+git init
+git remote add origin https://github.com/Satanik04/aws_asg.git
+git add .
+git commit -m "First commit"
+git branch -M  master
+git push -u origin master
+
+AGAIN
+
+git init
+git clone https://github.com/Satanik04/aws_asg.git
+
+Ass-9/10(same)
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt install nginx
+git clone https://github.com/SAYAN-39/sayan_39.git
+cd sayan_39
+curl -sL https://deb.nodesource.com/setup_18.x  | sudo -E bash -
+sudo apt-get install -y nodejs
+npm install
+node index.js
+
+
+ASS-12
+
+#!/bin/bash
+apt-get update -y
+apt-get upgrade -y
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt-get install -y git
+curl -sL https://deb.nodesource.com/setup_18.x  | sudo -E bash -
+apt-get install -y nodejs
+cd/home/ubuntu
+git clone https://github.com/SAYAN-39/sayan_39.git
+cd sayan_39
+npm install
+node index.js
+
+THEN
+cd ../..
+cd etc
+cd nginx
+cd sites-available
+sudo chmod 777 default
+nano default
+
+location / {
+                # First attempt to serve request as file, then
+                # as directory, then fall back to displaying a 404.
+                proxy_pass http://localhost:4000;
+                proxy_http_version 1.1;
+                proxy_set_header Upgrade $http_upgrade;
+                proxy_set_header Connection 'Upgrade';
+                proxy_set_header Host $host;
+                proxy_cache_bypass $http_upgrade;
+        }
+sudo systemctl restart nginx
+
+
+
+#!/bin/bash
+apt-get update
+apt-get upgrade
+apt-get install -y nginx
+systemct1 start nginx
+systemct1 enable nginx
+apt-get install -y git
+curl -sL https://deb.nodesource.com/setup_18.x  | sudo -E bash -
+apt-get install -y nodejs
+git clone https://github.com/Satanik04/aws_asg.git
+cd aws_asg
+npm install
+node index.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
