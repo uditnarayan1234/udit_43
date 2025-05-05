@@ -77,7 +77,14 @@ npm install
 node index.js
 
 
-
+ASG 7:
+sudo apt-get update/upgrade
+sudo apt install iginx
+cd ..
+cd ..
+cd var
+cd www
+sudo chmod 77 html
 
 
 
